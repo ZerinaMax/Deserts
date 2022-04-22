@@ -1,0 +1,114 @@
+*, :before, :after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+    a {
+        color:#000;
+    }
+    .header {
+        background-color: white;
+        text-align: center;
+    }
+    .header h1:before {
+        display: block;
+        content: "Déserts du monde";
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+    .logo {
+        padding-top: 2%;
+    }
+    .header h1 {
+        text-align: center;
+        color: rgba(166,81,34,255);
+        font-style: italic;
+        font-weight: bolder;
+    }
+    .header ul {
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+        padding: 1rem;
+        margin: 0 3rem 0 3rem;
+        list-style: none;
+        background-color: rgba(226,226,226,255);
+    }
+    .header li a {
+        flex-direction: row;
+        text-decoration: none;
+        background-color: rgba(226,226,226,255);
+        font-weight: bolder;
+    }
+    /*main*/
+    .main {
+        margin-top: 1.5rem;
+        justify-content: center;
+        font-size: 16px;
+    }
+    .principe {
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-bottom: 15px;
+    }
+    .principe h2 {
+        text-align: center;
+        padding-bottom: 0.5rem;
+    }
+    .image-principal {
+        max-width: 100%;
+        height: auto;
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+    .principe p {
+        justify-content: stretch;
+        padding-bottom: 10px;
+    }
+    .extra-content {
+        display: flex;
+        width: 100%;
+        border-top: 2px solid rgba(51, 51, 51, 0.386);
+    }
+    .extra {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin: auto;
+    }
+    .extra h3 {
+        font-weight: bolder;
+        border-bottom: 2px solid rgba(51, 51, 51, 0.386);
+        padding: 1rem ;
+    }    
+    .extra ol {
+        padding: 2rem;
+    }
+    .galerie{
+        width: 40%;
+        margin-right: 5%;
+    }
+    .galerie img{
+        flex-direction: row;
+        padding: 1px;
+    }
+    .galerie h3 {
+        font-weight: bolder;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        border-bottom: 2px solid rgba(51, 51, 51, 0.386);
+    }
+    footer {
+        display: flex;
+        border-top: 2px solid rgba(51, 51, 51, 0.386);
+    }
+    .cpright-center{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-top: 15px;
+    }
